@@ -1,0 +1,99 @@
+*{
+    font-family:Alegreya;
+}
+.container-fluid{
+    background: url(../img/forest-5855196_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main{
+    padding: 30px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+h2{
+    font-size: 32px;
+    color: #fff;
+    position: relative;
+}
+h2::before{
+    content: "";
+    width:10% ;
+    height: 3px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #365E32;
+}
+.qoute{
+    font-size: 22px;
+    font-weight: 500;
+}
+.author{
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    color: #FFA62F;
+    display: none;
+   
+}
+.author::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    top: 50%;
+    left:-20px;
+    transform: translateY(-50%);
+    background-color: #FFC96F;
+    
+}
+.newqoute{
+    border: 1px solid #FF0000;
+    transition: 0.5s;
+    
+}
+.tweet{
+    border: 1px solid #2EFEF7;
+    transition: 0.5s
+}
+button{
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+}
+.newqoute:hover{
+    background-color: #FF0000;
+}
+.tweet:hover{
+    background-color: #2EFEF7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family:Alegreya ;
+    src: url(../fonts/Alegreya-SemiBoldItalic.ttf);
+}
